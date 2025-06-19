@@ -10,3 +10,15 @@ information about the different artists.This project includes clean code, helpfu
 | ------------------------------------- | -------------------------------------------- |
 | **Kotlin**                            | Main programming language                    |
 | **Android Studio**                    | Development environment                      |
+
+## how it works
+**Home Screen:**
+add to playlist button
+the user gets to enter the details for the playlist
+button to move to the next screen
+exit button
+
+**Detailed View Screen:**
+display the list of songs with their matching details using a loop
+calculates and displays the average rating using a loop
+return to main screen button
