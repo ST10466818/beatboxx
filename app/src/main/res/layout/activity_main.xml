@@ -3,6 +3,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:autofillHints="enter"
     android:background="#1D1717"
     android:backgroundTint="#1D1717"
     android:orientation="vertical"
@@ -42,6 +43,18 @@
         android:textColor="#F8FFFFFF"
         android:textSize="24sp" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/anton"
+        android:hint="1)Enter the song's name                                     2)The artist of the song                                  3)How much you rate it                                   4)What you think about the song"
+        android:textColor="#F8FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="21dp"
+        android:visibility="visible" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/startButton"
         android:layout_width="match_parent"
@@ -51,7 +64,8 @@
         android:background="#1DB954"
         android:fontFamily="sans-serif-black"
         android:text="Add to playlist"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/black"
+        tools:ignore="MissingClass" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/exitButton"
