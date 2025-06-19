@@ -51,7 +51,7 @@
         android:background="#1DB954"
         android:fontFamily="sans-serif-black"
         android:text="Add to playlist"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/black" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/exitButton"
