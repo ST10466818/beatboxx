@@ -3,6 +3,7 @@ package za.co.varsitycollege.beatboxx
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
@@ -28,8 +29,10 @@ class MainActivity : AppCompatActivity() {
         val exitButton = findViewById<AppCompatButton>(R.id.exitButton)
         exitButton.setOnClickListener {
             finish()
-
+            val information = findViewById<EditText>(R.id.information)
+            Log.d("MainActivity","Information: ${information.text}") //debugging
+            Log.d("MainActivity", "Exit button clicked") // debugging
+            Log.e("MainActivity", "Error message") //error handling
         }
-
     }
 }
