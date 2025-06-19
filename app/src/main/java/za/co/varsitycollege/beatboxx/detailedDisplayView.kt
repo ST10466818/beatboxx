@@ -1,6 +1,9 @@
 package za.co.varsitycollege.beatboxx
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,6 +19,26 @@ class detailedDisplayView : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        
+        val btnBack = findViewById<Button>(R.id.btn_back)
+        btnBack.setOnClickListener {
+            finish()
+            val intent = Intent(this, MainActivity::getDisplay.java)
+            startActivity(intent)
+            val avgRatingBtn = findViewById<Button>(R.id.avgRatingBtn)
+            avgRatingBtn.setOnClickListener {
+                fun calculateAverageRating(): Double {
+                    ()
+                    val avgRating = calculateAverageRating()
+                    val information = findViewById<TextView>(R.id.tv_items)
+                    information.text = "Average rating: $avgRating"
+                }
+            }
+        }
     }
 }
+    private fun calculateAverageRating(): Double {
+
+
+
+
+
