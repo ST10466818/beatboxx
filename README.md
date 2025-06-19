@@ -58,6 +58,8 @@ A connected device or emulator( we used the Pixel 9 API 36
 Click Run ▶️ or use Shift + F10
 
 ## images
+![first page user interface](https://github.com/user-attachments/assets/f8658fdf-c71f-4804-9761-dd9bdf9faead)
+
 
 ## Requirements
 
