@@ -57,6 +57,21 @@
         android:visibility="visible" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="-26dp"
+        android:background="#1DB954"
+        android:fontFamily="@font/anton"
+        android:text="NEXT!"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        android:visibility="visible"
+        tools:ignore="MissingClass" />
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/startButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

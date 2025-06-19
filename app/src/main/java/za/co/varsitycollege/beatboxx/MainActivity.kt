@@ -29,6 +29,14 @@ class MainActivity : AppCompatActivity() {
         val exitButton = findViewById<AppCompatButton>(R.id.exitButton)
         exitButton.setOnClickListener {
             finish()
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+             val nextbtn = findViewById<AppCompatButton>(R.id.nextbtn)
+            nextbtn.setOnClickListener {
+                Log.d("MainActivity", "Next button clicked") //Log statement for debugging
+                val intent = Intent(this, detailedDisplayView::class.java)
+                startActivity(intent)
+            }
             val information = findViewById<EditText>(R.id.information)
             Log.d("MainActivity","Information: ${information.text}") //debugging
             Log.d("MainActivity", "Exit button clicked") // debugging
