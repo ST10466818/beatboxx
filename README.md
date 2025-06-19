@@ -59,6 +59,32 @@ Click Run ▶️ or use Shift + F10
 
 ## images
 
+## Requirements
+
+ Android Studio ; GitHub ; Kotlin ; Android SDK 
+
+## Running Tests
+
+Manually tested app after every update across different screen sizes to ensure stable performance.
+
+## FAQ's
+
+### How does the app work?
+
+When you start the app,it asks you to enter the information of the songs and how you rate them so it can compile a playlist for you . After you enter their details, the app calculates and displays the average rating for the songs in the playlist.
+
+### Do I need internet to play? 
+
+Nope! This app runs perfectly offline . 
+
+### Who is this app for?
+
+Mostly music enthusiasts who would love to share their opinion on the music and artists they listen to.
+
+### What platforms does the app support?
+
+This app is only available on Android devices at the moment.
+
 
 
     
